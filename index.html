@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#0e2420">
+  <title>Práctica TFI · Turbomáquinas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,520;9..144,640&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <strong>Práctica TFI</strong>
+      <span>Test, cálculos y el problema de la bomba</span>
+    </div>
+    <div class="top-actions">
+      <button class="btn btn-ghost" id="go-home" type="button">Inicio</button>
+      <button class="btn btn-form" id="open-form" type="button">Formulario</button>
+    </div>
+  </header>
+  <main class="wrap" id="app"></main>
+  <div class="modal" id="modal" hidden>
+    <div class="sheet" role="dialog" aria-modal="true" aria-label="Formulario">
+      <header>
+        <h2>Formulario TFI 2026</h2>
+        <button class="btn btn-line" id="close-form" type="button">Cerrar</button>
+      </header>
+      <p class="muted small">El mismo formulario del curso. Se abre desde cualquier pregunta y desde cualquier paso del ejercicio. Amplía la página del navegador si lo quieres más grande.</p>
+      <img src="assets/formulario/p01.jpg" alt="Formulario, página 1">
+      <img src="assets/formulario/p02.jpg" alt="Formulario, página 2">
+    </div>
+  </div>
+  <script src="js/bank.js"></script>
+  <script src="js/problem.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

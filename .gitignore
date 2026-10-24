@@ -1,0 +1,5 @@
+_extract/
+__pycache__/
+*.pyc
+.DS_Store
+Preparacion_Final_TFI_8h/

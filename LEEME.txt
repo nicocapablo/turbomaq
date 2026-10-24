@@ -1,0 +1,5 @@
+﻿Abre index.html en el navegador para practicar el final.
+
+Ahí puedes generar exámenes, escribir el problema de la bomba y abrir el formulario en cualquier momento.
+
+Cómo subirlo a GitHub: está en README.md.
